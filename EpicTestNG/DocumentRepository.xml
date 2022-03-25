@@ -1,0 +1,24 @@
+<suite name="DocumentRepositorylogin">
+<test name="EpicLoginTest">
+<parameter name="cmp" value="cpl02"></parameter>
+<parameter name="epiquid" value="varsha"></parameter>
+<parameter name="epiqpwd" value="varsha789"></parameter>
+<classes>
+<class name="Epic.testcases.EpicLoginTest"></class>
+</classes>
+</test>
+
+<test name="DocumentRepositoryTest">
+<parameter name="Rid" value="DR91"></parameter> 
+<parameter name="Title" value="DT91"></parameter>
+<parameter name="Nsec" value="2"></parameter>
+<parameter name="Stitle1" value="QA1"></parameter>
+<parameter name="Sid1" value="QC1"></parameter>
+<parameter name="Stitle2" value="QA2"></parameter>
+<parameter name="Sid2" value="QC2"></parameter>
+<parameter name="find" value="my"></parameter>
+<classes>
+<class name="Epic.testcases.DocRepositoryTest"></class>
+</classes>
+</test>
+</suite>

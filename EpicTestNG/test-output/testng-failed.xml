@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Epiclogin]">
+  <test thread-count="5" name="EpicLoginTest(failed)">
+    <parameter name="cmp" value="cpl02"/>
+    <parameter name="epiqpwd" value="varsha789"/>
+    <parameter name="epiquid" value="varsha"/>
+    <classes>
+      <class name="Epic.testcases.EpicLoginTest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Epic.testcases.EpicLoginTest -->
+    </classes>
+  </test> <!-- EpicLoginTest(failed) -->
+  <test thread-count="5" name="DepUserMappingTest(failed)">
+    <parameter name="Adep" value="RD"/>
+    <parameter name="searchid" value="User ID"/>
+    <parameter name="Sdata" value="chaithu"/>
+    <classes>
+      <class name="Epic.testcases.DepUserMappingTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="DuMappping" invocation-numbers="0"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Epic.testcases.DepUserMappingTest -->
+    </classes>
+  </test> <!-- DepUserMappingTest(failed) -->
+</suite> <!-- Failed suite [Epiclogin] -->

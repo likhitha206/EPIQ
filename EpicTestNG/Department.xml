@@ -1,0 +1,21 @@
+<suite name="Departmentlogin">
+<test name="EpicLoginTest">
+<parameter name="cmp" value="cpl02"></parameter>
+<parameter name="epiquid" value="varsha"></parameter>
+<parameter name="epiqpwd" value="varsha789"></parameter>
+<classes>
+<class name="Epic.testcases.EpicLoginTest"></class>
+</classes>
+</test>
+
+  
+<test name="DepartmentTest">
+<parameter name="name" value="rd67"></parameter>
+<parameter name="uni" value="rd67"></parameter>
+<parameter name="des" value="description1"></parameter>
+<parameter name="epass" value="varsha789"></parameter>
+<classes>
+<class name="Epic.testcases.DepartmentTest"></class>
+</classes>
+</test>
+</suite>
