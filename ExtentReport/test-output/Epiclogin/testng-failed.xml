@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Epiclogin]" parallel="none">
+  <parameter name="cmp" value="cpl02"/>
+  <parameter name="epiqpwd" value="varsha789"/>
+  <parameter name="epiquid" value="varsha"/>
+  <test name="EpicLoginTest">
+    <parameter name="cmp" value="cpl02"/>
+    <parameter name="epiqpwd" value="varsha789"/>
+    <parameter name="epiquid" value="varsha"/>
+    <classes>
+      <class name="Epic.testcases.EpicLoginTest"/>
+    </classes>
+  </test> <!-- EpicLoginTest -->
+  <test name="EpicLoginTest(failed)" parallel="none">
+    <parameter name="cmp" value="cpl02"/>
+    <parameter name="epiqpwd" value="varsha789"/>
+    <parameter name="epiquid" value="varsha"/>
+    <classes>
+      <class name="Epic.testcases.EpicLoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- Epic.testcases.EpicLoginTest -->
+    </classes>
+  </test> <!-- EpicLoginTest(failed) -->
+</suite> <!-- Failed suite [Epiclogin] -->

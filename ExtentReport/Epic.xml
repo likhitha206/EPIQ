@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Epiclogin">
+<listeners>
+<listener class-name="ExtentReportListener.ExtentReportTestNG" />
+</listeners>
+
+<test name="EpicLoginTest">
+<parameter name="cmp" value="cpl02"></parameter>
+<parameter name="epiquid" value="varsha"></parameter>
+<parameter name="epiqpwd" value="varsha789"></parameter>
+<classes>
+<class name="Epic.testcases.EpicLoginTest"></class>
+</classes>
+</test>
+
+ <!--  
+<test name="DepartmentTest">
+<parameter name="name" value="rd64"></parameter>
+<parameter name="uni" value="rd6"></parameter>
+<parameter name="des" value="description1"></parameter>
+<parameter name="epass" value="varsha789"></parameter>
+<classes>
+<class name="Epic.testcases.DepartmentTest"></class>
+</classes>
+</test>
+-->
+<!--  
+<test name="DocumentRepositoryTest">
+<parameter name="Rid" value="DR98"></parameter> 
+<parameter name="Title" value="DT98"></parameter>
+<parameter name="Nsec" value="2"></parameter>
+<parameter name="Stitle1" value="QA1"></parameter>
+<parameter name="Sid1" value="QC1"></parameter>
+<parameter name="Stitle2" value="QA2"></parameter>
+<parameter name="Sid2" value="QC2"></parameter>
+<parameter name="find" value="my"></parameter>
+<classes>
+<class name="Epic.testcases.DocRepositoryTest"></class>
+</classes>
+</test>
+-->
+
+ 
+ <!-- 
+<test name="DepUserMappingTest">
+<parameter name="searchid" value="User ID"></parameter>
+<parameter name="Sdata" value="chaithu"></parameter>
+<parameter name="Adep" value="RD"></parameter>
+<classes>
+<class name="Epic.testcases.DepUserMappingTest"></class>
+</classes>
+</test>
+ -->
+</suite>
